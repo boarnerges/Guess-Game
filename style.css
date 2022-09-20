@@ -124,5 +124,15 @@ h1 {
 
   main {
     flex-direction: column-reverse;
+    height: 50vh;
+    justify-content: space-evenly;
+  }
+
+  .left {
+    width: 30%;
+  }
+
+  .right {
+    width: 30%;
   }
 }
