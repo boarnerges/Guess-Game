@@ -124,9 +124,7 @@ h1 {
 
   main {
     flex-direction: column-reverse;
-    height: 50vh;
     justify-content: space-evenly;
-    /* padding: 50px 0; */
   }
 
   .left {
