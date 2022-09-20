@@ -126,7 +126,7 @@ h1 {
     flex-direction: column-reverse;
     height: 50vh;
     justify-content: space-evenly;
-    padding: 100px 0;
+    /* padding: 50px 0; */
   }
 
   .left {
@@ -135,5 +135,9 @@ h1 {
 
   .right {
     width: 40%;
+  }
+
+  .message {
+    margin-bottom: 2rem;
   }
 }
