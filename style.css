@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+//@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 * {
   margin: 0;
@@ -117,7 +117,12 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
-@media (max-width: 768px){
-  main{
-    flex-direction: column-reverse
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
   }
+
+  main {
+    flex-direction: column-reverse;
+  }
+}
